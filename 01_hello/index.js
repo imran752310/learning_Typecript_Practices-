@@ -8,4 +8,5 @@ console.log(accountId);
 console.log(accountEmail);
 console.log(accountPassword);
 console.log(accountCity);
+//print as a table
 console.table([accountId, accountEmail, accountPassword, accountCity]);

@@ -9,4 +9,6 @@ let c = false;
 let e = "this is string";
 let f = 23;
 f = 2;
+let g = true;
+g = false;
 console.log(f);
