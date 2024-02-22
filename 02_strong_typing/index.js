@@ -5,9 +5,7 @@ let a = "imran khan";
 a = "pakistan ";
 let b = 17;
 let c = false;
-
 //type inference
-//expacitly define type that this is a string etc
 let e = "this is string";
 let f = 23;
 f = 2;
