@@ -17,3 +17,19 @@ console.log("Last Name: ", person.lastName);
 
 //Adding new property to the object
 //person.email = "john.doe@example.com";
+
+//TYPE Declaration in Object
+
+let student : {
+    name : String,
+    email : string,
+    contact : string,
+}
+student ={
+     name : "imran",
+     email : "Imran@gmail.com",
+     contact : '020330'
+}
+
+console.log(student.name);
+console.log(student.email);
