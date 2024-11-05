@@ -33,3 +33,37 @@ student ={
 
 console.log(student.name);
 console.log(student.email);
+
+
+
+let myArray = [
+
+    {
+        name: "imran",
+        email: "imran@gmail.com",
+        contact: "020330"
+
+    },
+    {
+        name: "ali",
+        email: "ali@gmail.com",
+        contact: "020330"
+    },
+    {
+        name: "khan",
+        email: "khan@gmail.com",
+        contact: "020330"
+    },
+    {
+        name: "wali",
+        email: "wali@gmail.com",
+        contact: "020330"
+    }
+]
+
+
+myArray.map((item)=>{
+    console.log(item.name);
+    console.log(item.email);
+console.log(item.contact);
+})
